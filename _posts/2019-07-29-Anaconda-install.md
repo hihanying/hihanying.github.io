@@ -13,16 +13,16 @@ tags:
     - Tools
 ---
 
-##  Anaconda
+#  Anaconda
 
-### Anaconda下载
+## Anaconda下载
 
 大多数人从**清华大学开源软件镜像站**下载可能更快一些
 
 - [官网下载地址](https://www.anaconda.com/download/)
 - [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 
-### Anaconda安装
+## Anaconda安装
 
 基本是一路Next,注意以下几点:
 
@@ -31,15 +31,15 @@ tags:
 - 记得安装**Microsoft VSCode**
 
 
-### Anaconda配置
+## Anaconda配置
 
-#### 配置环境变量
+### 配置环境变量
 
 - 找到: 控制面板\系统和安全\系统\高级系统设置\环境变量\用户变量\PATH 
 - 加入anaconda的安装目录的Scripts文件夹的路径: D:\ProgramData\Anaconda3\Scripts
 - 打开命令行: 快捷键Win+R, 输入cmd, 回车, 输入`conda --version`, 打印出版本号则成功
 
-#### 更改源并更新包
+### 更改源并更新包
 
 TUNA 提供了 Anaconda 仓库的镜像, 这样安装速度会快一点
 
@@ -53,7 +53,7 @@ TUNA 提供了 Anaconda 仓库的镜像, 这样安装速度会快一点
 有提示输入:y
 耐心等待......
 
-#### 常用命令与Python包管理
+### 常用命令与Python包管理
 
 常用的指令
 
@@ -82,7 +82,7 @@ TUNA 提供了 Anaconda 仓库的镜像, 这样安装速度会快一点
 设置允许pip访问conda包管理，执行命令
     conda config --set use_pip True
 
-#### 管理虚拟环境
+### 管理虚拟环境
 
 最好使用 Anaconda Prompt 执行下列命令
     
@@ -99,7 +99,7 @@ TUNA 提供了 Anaconda 仓库的镜像, 这样安装速度会快一点
     source activate <env_name>    激活环境
     source deactivate             退出当前环境
  
-### 配置 Jupyter Notebook
+## 配置 Jupyter Notebook
 
 Jupyter Notebook 更改默认路径
 1. 打开Anaconda Prompt，输入如下命令：
