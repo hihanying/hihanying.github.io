@@ -1,6 +1,6 @@
 ---
 layout:     post                   
-title:      Java01面向对象与封装
+title:      Java01：面向对象与封装
 subtitle:   类与对象, 封装, 构造        
 date:       2019-07-31        
 author:     HY                 
@@ -10,8 +10,8 @@ tags:
     - Java
     - 面向对象
     - 封装
-    - 
 ---
+
 
 # Java01: 面向对象与封装
 
